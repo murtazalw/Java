@@ -11,7 +11,7 @@ public class ByteConverter {
 	public ByteConverter(){
 			File file = new File("res/file.txt");
 			
-			int i=0;
+			int i=1;
 		try {
 			fis = new FileInputStream(file);
 		} catch (FileNotFoundException e) {
