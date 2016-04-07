@@ -10,7 +10,8 @@ public class ByteConverter {
 	
 	public ByteConverter(){
 			File file = new File("res/file.txt");
-			int i=10;
+			
+			int i=0;
 		try {
 			fis = new FileInputStream(file);
 		} catch (FileNotFoundException e) {
