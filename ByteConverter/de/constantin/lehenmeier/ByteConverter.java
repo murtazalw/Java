@@ -10,6 +10,7 @@ public class ByteConverter {
 	private FileInputStream fileInputStream;
 	String s;
     String s2;
+    String s3;
 	
 	public ByteConverter(){
 			File file = new File("res/file.txt");
