@@ -7,6 +7,7 @@ import java.io.IOException;
 
 public class ByteConverter {
 	private FileInputStream fis;
+	private FileInputStream fileInputStream;
 	
 	public ByteConverter(){
 			File file = new File("res/file.txt");
