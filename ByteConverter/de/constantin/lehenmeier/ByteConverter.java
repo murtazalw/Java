@@ -8,6 +8,7 @@ import java.io.IOException;
 public class ByteConverter {
 	private FileInputStream fis;
 	private FileInputStream fileInputStream;
+	String s;
 	
 	public ByteConverter(){
 			File file = new File("res/file.txt");
