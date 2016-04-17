@@ -9,6 +9,7 @@ public class ByteConverter {
 	private FileInputStream fis;
 	private FileInputStream fileInputStream;
 	String s;
+    String s2;
 	
 	public ByteConverter(){
 			File file = new File("res/file.txt");
